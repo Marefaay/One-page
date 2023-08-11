@@ -1,0 +1,159 @@
+table {
+  width: 100%;
+  height: 97vh;
+  /* border: 5px solid #000; */
+  text-align: center;
+  border-collapse: collapse;
+}
+td {
+  /* border: 1px solid #000; */
+}
+#first {
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#last {
+  width: 150px;
+}
+#last i {
+  color: blueviolet;
+}
+
+#last a{
+    background-color: #fff;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+#first span {
+  color: blue;
+}
+#first i {
+  color: blueviolet;
+}
+table #header td ul li {
+  display: inline;
+}
+table #header td ul {
+  word-spacing: 40px;
+}
+#header {
+  background-color: #0000001f;
+  height: 20px;
+}
+#header a {
+  text-decoration: none;
+  color: #141313;
+  text-transform: capitalize;
+  /* font-size: 18px; */
+  /* font-weight: bold; */
+}
+#main{
+    height: 90vh;
+}
+#main #img{
+    text-align: center;
+    color: #fff;
+background-image: url(images/R.jpeg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#main #img a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 1.4px;
+    border-radius: 5px;
+    
+}
+#main h1{
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+#main p{
+    color: #d4d0d0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#about td{
+    text-align: center;
+}
+#about td p {
+width: 500px;
+font-size: 20px;
+font-weight: 900;
+line-height: 1.4;
+text-align: right;
+}
+#about td a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: blue;
+    padding: 7px 10px;
+    letter-spacing: 1.4px;
+    font-weight: 900;
+}
+/* #about td{
+    /* width: 20%; */
+    /*text-align: center;
+} */
+#contact{
+    /* text-align: center; */
+}
+#clast{
+    width: 50px;
+}
+#contact td i{
+    background-color: #00f;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+#contact td h2{
+    text-transform: capitalize;
+}
+#contact span {
+    color: #00f;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact a{
+    text-decoration: none;
+    color: #00f;
+    font-size: 18px;
+    font-weight: bold;
+}
+#services img{
+    width:300px;
+    height: 300px;
+}
+#serv img{
+    width:300px;
+    height: 300px;
+
+}
+#services h2{
+    text-transform: capitalize;
+}
+#serv h2{
+    text-transform: capitalize;
+
+}
+#footer{
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: #0000001f;
+}
+#footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+color: #00f;
+font-weight: bold;
+}
